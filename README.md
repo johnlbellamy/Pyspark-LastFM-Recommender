@@ -12,7 +12,7 @@ You will need to provide your own 360k User LastFM dataset (Should be able to fi
 # Setup:
 
 1) python -m venv .als
-2) source .nls/bin/activate
+2) source .als/bin/activate
 3) pip install -r requirements
 
 # Order of notebooks
