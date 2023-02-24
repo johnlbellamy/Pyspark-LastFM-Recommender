@@ -8,6 +8,15 @@ You will need to provide your own 360k User LastFM dataset (Should be able to fi
 # Jupyter Notebook Usage:
 # Download data from: http://mtg.upf.edu/static/datasets/last.fm/lastfm-dataset-360K.tar.gz
 # tar -xf lastfm-dataset-360K.tar.gz
+
+# Setup:
+
+1) python -m venv .als
+2) source .nls/bin/activate
+3) pip install -r requirements
+
+# Order of notebooks
+
 1) LastFM-Munging cleans and structures the data. 
 2) LastFM-Descriptive is for summary stats and some additional munging. 
 3) LastFM-Model is the model notebook.
